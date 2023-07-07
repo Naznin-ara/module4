@@ -3,10 +3,7 @@
     padding:0;
     box-sizing: border-box;
 }
-/* input[type=search]::-webkit-search-cancel-button{
-    -webkit-appearance: searchfield-cancel-button!important;
-} */
-/* form part start */
+
 nav{
     background-color: rgb(68, 61, 61);
     color:white;
