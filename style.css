@@ -7,14 +7,19 @@
     -webkit-appearance: searchfield-cancel-button!important;
 } */
 .container{
-    background: linear-gradient(45deg, rgba(94, 117, 52, 0.5),rgba(144, 236, 216, 0.8),rgba(240, 150, 240, 0.9));
-    /* background-image: url(images/th.jpg);
+    /* background: linear-gradient(45deg, rgba(94, 117, 52, 0.5),rgba(144, 236, 216, 0.8),rgba(240, 150, 240, 0.9)); */
+    background-image: url(images/WebBackground.png);
     background-repeat: no-repeat;
     background-position:center;
-    background-size: cover; */
+    background-size: cover;
     width:100%;
     height:100vh;
     
+}
+h3{
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    padding-bottom: 10px;
 }
 h1{
     text-align: center;
@@ -25,13 +30,20 @@ h1{
 .form{
     width:350px;
     height:450px;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.4);
     color:white;
     margin:auto;
-    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 20px rgba(26, 216, 216, 0.8) ;
 padding:20px ;
 line-height: 1.5rem;
 border-radius: 10px;
+transform-origin: center;
+transition: all 0.5s;
+}
+.form:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px rgba(243, 247, 6, 0.8) ;
+
 }
 .form input{
     color:white;
@@ -42,7 +54,9 @@ border-radius: 10px;
     border-bottom: 1px solid rgba(255,255,255,0.9);
 }
 input[type=search]{
-    width:85%
+    width:85%;
+ 
+
 }
 input[type=reset]{
     width:10%;
@@ -85,12 +99,12 @@ a{
     text-decoration: none;
     color:rgb(71, 71, 71);
     background-color:rgba(255, 255, 255,0.6) ;
-    padding:1px;
-    border-radius: 10px;
+    padding:px;
+    border-radius: 5px;
     box-shadow:1px 1px 5px ;
     margin:10px 0;
     display: block;
-    width:40%;
+    width:100%;
     text-align: center;
 }
 /* .box{
