@@ -32,7 +32,7 @@ transform: scale(1.2);
 }
 .container{
     /* background: linear-gradient(45deg, rgba(94, 117, 52, 0.5),rgba(144, 236, 216, 0.8),rgba(240, 150, 240, 0.9)); */
-    background-image: url(images/WebBackground.png);
+    background-image: url('images/WebBackground.png');
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
